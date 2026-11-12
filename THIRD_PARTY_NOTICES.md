@@ -18,4 +18,4 @@ External components and sources:
 
 No project-wide license grant has been added on behalf of the five authors.
 This notice does not relicense upstream code, model weights, datasets or report content.
-Research references and original acknowledgements are in `report/Project_Report.pdf`.
+Research references and original acknowledgements are in `docs/project_report.pdf`.

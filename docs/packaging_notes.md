@@ -1,7 +1,7 @@
 # Packaging notes
 
 The project title is taken from the supplied report. All five original authors remain credited.
-The report is included unchanged as `report/Project_Report.pdf`; its original filename
+The report is included unchanged as `docs/project_report.pdf`; its original filename
 was `IEEE_Conference.pdf`. Its filename/layout alone is not evidence of conference publication.
 
 ## Organisation

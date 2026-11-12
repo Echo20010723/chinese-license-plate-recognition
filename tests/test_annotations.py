@@ -1,6 +1,6 @@
 import pytest
 
-from parse_tool import parse_filename
+from ccpd_annotations import parse_filename
 
 NAME = "025-90_85-10&20_110&60-110&60_10&60_10&20_110&20-0_0_24_25_26_27_28-100-5.jpg"
 

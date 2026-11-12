@@ -1,7 +1,7 @@
 # Contributing
 
 Use Python 3.10–3.12 and an isolated environment. Install `requirements-dev.txt`.
-Run `python -m pytest -q` and `python review_results.py` before submitting changes.
+Run `python -m pytest -q` and `python validate_results.py` before submitting changes.
 
 Keep the original authors and distinguish recorded experiment metrics from newly measured results.
 For model changes, document the split, seed, preprocessing, checkpoint, hardware, timing protocol

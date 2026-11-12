@@ -13,7 +13,7 @@ if str(PART1_DIR) not in sys.path:
 # Do not wrap configuration errors: if a teammate has not placed the dataset in
 # the expected folder, config.py now reports the exact searched paths directly.
 from config import DATA_ROOT, DATASET_VARIANT, OUT_DIR, SEED, require_dataset  # type: ignore
-from parse_tool import parse_filename  # type: ignore
+from ccpd_annotations import parse_filename  # type: ignore
 
 DATA_ROOT = Path(DATA_ROOT)
 OUT_DIR = Path(OUT_DIR)

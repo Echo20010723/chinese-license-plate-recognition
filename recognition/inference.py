@@ -6,7 +6,7 @@ import numpy as np
 import torch
 from torchvision import transforms
 
-from parse_tool import ADS, ALPHABETS, PROVINCES
+from ccpd_annotations import ADS, ALPHABETS, PROVINCES
 from recognition.model import SevenHeadRecognizer
 
 POSITION_TABLES = [PROVINCES, ALPHABETS] + [ADS] * 5

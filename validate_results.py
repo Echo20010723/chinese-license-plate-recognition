@@ -72,7 +72,7 @@ def main():
         close(loc / len(group), row["localisation_accuracy_iou_gt_0_7"], "localisation accuracy")
         close(len(group) / float(row["elapsed_seconds"]), row["fps"], "saved throughput")
     for checkpoint in ["detection/yolov8n.pt", "detection/runs/ccpd2019_yolov8n_gpu_30ep/weights/best.pt",
-                       "recognition/checkpoints/seven_head_spatial_residual_best.pt"]:
+                       "recognition/checkpoints/seven_head_ccpd2019.pt"]:
         if not (ROOT / checkpoint).is_file():
             raise FileNotFoundError(checkpoint)
 

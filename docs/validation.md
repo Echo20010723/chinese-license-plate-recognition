@@ -25,7 +25,7 @@ Checked on 2026-11-12 with Python 3.12.7 on Windows, CPU inference.
   and synthetic-input inference, crop validation, annotation parsing, missing-dataset
   configuration, CLI help, highest-confidence box selection and no-detection JSON.
   Detection selection/no-detection tests use a controlled detector double.
-- `python review_results.py`: passed. Checks 45,000 selected metadata rows, disjoint
+- `python validate_results.py`: passed. Checks 45,000 selected metadata rows, disjoint
   formal splits, 10,000 prediction records per evaluation and saved summary consistency.
 - `python -m pip check`: no broken requirements in the verification environment.
 - Real CPU CLI smoke run on `detection/results/prediction_gallery/base.jpg`:
@@ -46,3 +46,15 @@ No training, full raw-image evaluation or throughput benchmark was rerun. Existi
 accuracy/FPS values remain the original group experiment results. GitHub Actions
 results must be checked on GitHub after upload; local passing checks do not assert
 that a remote run has occurred.
+
+## Public repository preparation
+
+- Renamed notebook, parser, validation entry point, overview/report and guide filenames;
+  updated imports, notebook links, defaults and model paths. See `file_naming.md`.
+- Added a reusable `PlateRecognizer` API with lazy recogniser loading and model reuse.
+- Added English/Chinese entry guides, installation troubleshooting, API reference,
+  reproduction instructions and model checksums.
+- Local checks: **19 tests passed**, saved-result checks passed, all 35 notebook code
+  cells parsed, and local Markdown/HTML/notebook links resolved.
+- CPU inference succeeded after the checkpoint rename. CI now includes Ubuntu
+  Python 3.10/3.12 and Windows Python 3.12, with real bundled-image smoke inference.

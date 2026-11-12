@@ -22,7 +22,7 @@ def test_invalid_crop(box):
 
 def test_bundled_checkpoint_loads_and_predicts_seven_characters():
     torch.set_num_threads(1)
-    model = load_recognizer(ROOT / "recognition/checkpoints/seven_head_spatial_residual_best.pt")
+    model = load_recognizer(ROOT / "recognition/checkpoints/seven_head_ccpd2019.pt")
     result = recognise_plate(np.zeros((48, 192, 3), dtype=np.uint8), [0, 0, 191, 47], model)
     assert len(result["text"]) == len(result["indices"]) == 7
     assert len(result["character_confidences"]) == 7
