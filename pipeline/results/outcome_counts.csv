@@ -1,0 +1,6 @@
+outcome,images
+Correct,6635
+"Text correct, IoU <= 0.7",406
+Missed detection,36
+Poor localisation,512
+Recognition error,2411

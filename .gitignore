@@ -1,0 +1,21 @@
+.venv/
+.cache/
+__pycache__/
+.ipynb_checkpoints/
+.local_packages/
+CCPD2019/
+CCPD2020/
+ccpd_green/
+Foggy-Hazy License Plates Images/
+detection/yolo_dataset/
+detection/yolo_dataset_green/
+data_preparation/anno_check/
+outputs/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

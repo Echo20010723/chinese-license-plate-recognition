@@ -1,0 +1,11 @@
+{
+  "weights": "detection/runs/ccpd2019_yolov8n_gpu_30ep/weights/best.pt",
+  "subset": "base",
+  "images": 500,
+  "warmup_images": 20,
+  "imgsz": 640,
+  "device_argument": "0",
+  "end_to_end_ms_per_image": 23.52483999999822,
+  "end_to_end_fps": 42.508259354795854,
+  "ultralytics_mean_inference_ms": 13.685440799967182
+}
